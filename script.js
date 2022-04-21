@@ -16,11 +16,19 @@ class Calculator {
     }
 
     appendNumber(number) {
-
+        // convert to string, so can have the numbers together instead of JS adding it 
+        if (number === '.' && this.currentOperand.includes('.')) return
+        this.currentOperand = this.currentOperand.toString() + number.toString()
     }
 
     chooseOperation(operation) {
-
+        if (this.currentOperand === '') return
+        if (this.previousOperand !== '') {
+            this.compute()
+        }
+        this.operation = operation
+        this.previousOperand = this.currentOperand
+        this.currentOperand = ''
     }
 
     compute() {
@@ -28,7 +36,8 @@ class Calculator {
     }
 
     updateDisplay() {
-
+        this.currentOperandTextElement.innerText = this.currentOperand
+        this.previousOperandTextElement.innerText = this.previousOperand
     }
 }
 
@@ -43,3 +52,25 @@ const allClearButton = document.querySelector('[data-all-clear]')
 const previousOperandTextElement = document.querySelector('[data-previous-operand]')
 const currentOperandTextElement = document.querySelector('[data-current-operand]')
 
+// Define new calc class object
+const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement);
+
+// Number Buttons 
+numberButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // use the number thats in the button user clicks
+        calculator.appendNumber(button.innerText)
+        // update the number in the output when clicked
+        calculator.updateDisplay()
+    })
+})
+
+// Operation Buttons 
+operationButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // use the operation thats in the button user clicks
+        calculator.chooseOperation(button.innerText)
+        // update the number in the output when clicked
+        calculator.updateDisplay()
+    })
+})
