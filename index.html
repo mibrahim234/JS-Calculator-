@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="calculator-grid">
+     <!-- DataOperation/Datanum: easier to see which parts of the operation is being used by css and which is used by JS -->
+     <div class="calculator-grid">
         <div class="output">
-            <div data-previous-operand class="previous-operand"></div>
-            <div data-current-operand class="current-operand"></div>
+          <div data-previous-operand class="previous-operand"></div>
+          <div data-current-operand class="current-operand"></div>
         </div>
-        <!-- DataOperation/Datanum: easier to see which parts of the operation is being used by css and which is used by JS -->
         <button data-all-clear class="span-two">AC</button>
         <button data-delete>DEL</button>
         <button data-operation>÷</button>
@@ -30,15 +30,10 @@
         <button data-number>8</button>
         <button data-number>9</button>
         <button data-operation>-</button>
-        <!-- Number class on . b/c it acts like a num in our calculator -->
         <button data-number>.</button>
-        <button>0</button>
+        <button data-number>0</button>
         <button data-equals class="span-two">=</button>
-
-
-
-
-
-    </div>
+      </div>
+        <!-- Number class on . b/c it acts like a num in our calculator -->
 </body>
 </html>
