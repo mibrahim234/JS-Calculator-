@@ -3,7 +3,7 @@
 ## Built to practice BootStrap
 
 ## Deployed Site 
-https://mibrahim234.github.io/Nature-BootStrap-Project/
+https://mibrahim234.github.io/JS-Calculator-/
 
 ## Description 
 This is a Calculator made with vanilla JavaScript. This app was built to practice JavaScript. The app is responsive and functions like a regular calculator.
@@ -24,7 +24,7 @@ This is a Calculator made with vanilla JavaScript. This app was built to practic
 
 
 ## Installation
-In order to install this project, you must login to GitHub and go to https://github.com/mibrahim234/Nature-BootStrap-Project. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
+In order to install this project, you must login to GitHub and go to https://github.com/mibrahim234/JS-Calculator-. Once there you will click on the green button that says clone or download. You will be given choices on how to download: using the ssh/html key or downloading the zip file.
 
 Using SSH/HTML Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. Once you have cloned the git team-generator repo, cd into the repo and type "open . for mac" Or "code . for windows" to open the folder which contains all files used for the website.
 
@@ -38,12 +38,12 @@ Using Download ZIP: Click on Download Zip. Locate the file and double click it t
 ---
 
 ## Technologies
-- [BootStrap](https://getbootstrap.com/)
-- [JQuery](https://jquery.com/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://javascript.com/)
 - [GitHub](https://github.com/)
 
 ## Credit
-Credit to Colt Steele On Udemy for going over bootstrap and doing a step by step on his Candy Project.
+Credit to Kyle from WebDevSimplified for going over this application on youtube.
 
 ## License
 Copyright (c) [2022]
