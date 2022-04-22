@@ -1,12 +1,12 @@
 # JavaScript Calculator ![GitHub license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
-## Built to practice BootStrap
+## Built to practice vanilla JavaScript
 
 ## Deployed Site 
 https://mibrahim234.github.io/JS-Calculator-/
 
 ## Description 
-This is a Calculator made with vanilla JavaScript. This app was built to practice JavaScript. The app is responsive and functions like a regular calculator.
+This is a Calculator made with vanilla JavaScript. This app was built to practice JavaScript. The app is responsive and functions like a regular calculator. <br>
   ![Calculator Screenshot](imgs/jscalc.PNG)
 
 
@@ -58,7 +58,7 @@ Read more about it at https://opensource.org/licenses/MIT.
 - mohamm1417@gmail.com
 
 ## Website
-[Link to the GIT repository](https://github.com/mibrahim234/Nature-BootStrap-Project)
+[Link to the GIT repository](https://github.com/mibrahim234/JS-Calculator-)
 
 
 ## Contribution
