@@ -7,7 +7,7 @@ https://mibrahim234.github.io/Nature-BootStrap-Project/
 
 ## Description 
 Nature Project is an app made to practice bootstrap. The app is responsive and contains beautiful images of nature. Enjoy the pictures that were from unsplash.com.
-  ![NATURE Project Screenshot](imgs/naturereadme.PNG)
+  ![NATURE Project Screenshot](imgs/jscalc.PNG)
 
 
 
